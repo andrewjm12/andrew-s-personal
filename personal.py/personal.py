@@ -5,7 +5,7 @@ def play_game():
     print('1. To your left, a narrow tunnel leads deeper into darkness. The air is colder there, and you can faintly hear the sound of rushing water.')
     print('2. To your right, a wider passage seems to have some light coming from it. The source of the light is unclear, but you hear distant whispers echoing from within.')
 
-    choice=input('\nWhich path do you choose? (left or right): ')
+    choice=input('\nWhich path do you choose? (type left or right): ')
 
     if choice == 'left':
         print('\nYou follow the dark tunnel...')
@@ -17,6 +17,17 @@ def play_game():
         print('You find a cave exit and other people!')
     else:
         print("Invalid choice. Please type 'left' or 'right'")
+
+    print('\nYou see all of them injured by a river in the middle of the woods.')
+    print('You are debating whether or not to interact with them.')
+    print('1. You could either talk to them.')
+    print('2. You could wander off on your own.' )
+
+    choice_2=input('\nWhat do you choose to do? (type talk or leave):')
+
+    if choice_2 == 'talk':
+         print('\nYou go up to the injured people...')
+
     
 print('Welcome to Text-Based Adventure Game!')
 play_game()
