@@ -18,7 +18,7 @@ def play_game():
             print('Examine')
 
             while True:
-                action1=input('\nWhat do you do?(Enter Cross or Examine):')
+                action1=input("\nWhat do you do?(Enter 'Cross' or 'Examine'):")
 
                 if action1 == 'Cross':
                     print('\nYou step foot on the wooden bridge...')
@@ -36,7 +36,7 @@ def play_game():
                     print('2.Go back to where you originally started.')
 
                     while True:
-                        choice3=input('\nWhat instruction do you take?(Enter 1 or 2):')
+                        choice3=input("\nWhat instruction do you take?(Enter '1' or '2'):")
 
                         if choice3=='1':
                             print('\nYou follow the river...')
@@ -57,7 +57,7 @@ def play_game():
                                     print('2. To your right there is a jungle.')
 
                                     while True:
-                                        choice5=input('\nWhich way do you go?(Enter 1 or 2):')
+                                        choice5=input("\nWhich way do you go?(Enter '1' or '2'):")
 
                                         if choice5=='1':
                                             print('\nYou make your way to the village...')
@@ -74,7 +74,7 @@ def play_game():
                                             print('2. Leave them.')
 
                                             while True:
-                                                choice6=input('\nWhat do you do?(Enter 1 or 2):')
+                                                choice6=input("\nWhat do you do?(Enter '1' or '2'):")
 
                                                 if choice6=='1':
                                                     print('\nYou eat the berries...')
@@ -90,10 +90,10 @@ def play_game():
                                                     print('GAME OVER')
                                                     break
                                                 else:
-                                                    print('\nInvalid choice. Please enter 1 or 2.')
+                                                    print("\nInvalid choice. Please enter '1' or '2'.")
                                             break
                                         else:
-                                            print('\nInvalid choice. Please enter 1 or 2.')
+                                            print("\nInvalid choice. Please enter '1' or '2'.")
                                     break
                                 elif action2=='Go away':
                                     print('\nYou go towards the crystal cavern to mine...')
@@ -103,7 +103,7 @@ def play_game():
                                     print('GAME OVER')
                                     break
                                 else:
-                                    print('\nInvalid choice. Please enetr 1 or 2.')
+                                    print("\nInvalid choice. Please enter 'Flee' or 'Go away'.")
                             break
                         elif choice3=='2':
                             print('\nYou go back to where you orignally started...')
@@ -113,11 +113,11 @@ def play_game():
                             print('GAME OVER')
                             break
                         else:
-                            print('\nInvalid choice. Please eneter 1 or 2.')
+                            print("\nInvalid choice. Please enter '1' or '2'.")
                     break
                         
                 else:
-                    print("\nInvalid choice. Please eneter 'Cross' or 'Examine'.")
+                    print("\nInvalid choice. Please enter 'Cross' or 'Examine'.")
             break
     
         elif choice_1=='2':
@@ -127,7 +127,7 @@ def play_game():
             print('2. A spiral staircase that leads upward.')
         
             while True:
-                choice7=input('\nWhat do you do?(Enter 1 or 2):')
+                choice7=input("\nWhat do you do?(Enter '1' or '2'):")
 
                 if choice7=='1':
                     print('\nYou approach the alter...')
@@ -144,7 +144,7 @@ def play_game():
                     print('2. You continue to go up the stairs.')
 
                     while True:
-                        choice8=input('\nWhat do you choose?(Enter 1 or 2):')
+                        choice8=input("\nWhat do you choose?(Enter '1' or '2'):")
 
                         if choice8=='1':
                             print('\nYou join their group...')
@@ -163,7 +163,7 @@ def play_game():
                             print('2. Go to the back of the library to find a key.')
 
                             while True:
-                                choice9=input('\nWhat instruction to you take?(Enter 1 or 2):')
+                                choice9=input("\nWhat instruction to you take?(Enter '1' or '2'):")
 
                                 if choice9=='1':
                                     print('\nYou flip the switch...')
@@ -174,7 +174,7 @@ def play_game():
                                     print('2. Do you stay along the sidewalk and find somewhere to recover.')
 
                                     while True:
-                                        choice10=input('\nWhat do you do?(Enter 1 or 2):')
+                                        choice10=input("\nWhat do you do?(Enter '1' or '2'):")
 
                                         if choice10=='1':
                                             print('\nYou cross the street...')
@@ -189,13 +189,13 @@ def play_game():
                                             print('2. A restaurant')
 
                                             while True:
-                                                choice11=input('\nWhere do you go?(Enter 1 or 2):')
+                                                choice11=input("\nWhere do you go?(Enter '1' or '2'):")
 
                                                 if choice11=='1':
                                                     print('\nYou enter the shrine...')
                                                     print('A group of people greet you, offering you a place to stay.')
-                                                    print('You are able to rest and eat as they adopt you into their family')
-                                                    print('You are safe')
+                                                    print('You are able to rest and eat as they adopt you into their family.')
+                                                    print('You are safe.')
                                                     print('GAME WON')
                                                     break
                                                 elif choice11=='2':
@@ -208,7 +208,7 @@ def play_game():
                                             break
 
                                         else:
-                                            print('\nInvalid choice. Please eneter 1 or 2.')
+                                            print("\nInvalid choice. Please enter '1' or '2'.")
                                     break
 
                                 elif choice9=='2':
@@ -238,24 +238,24 @@ def play_game():
                                             break
 
                                         else:
-                                            print("\nInvalid choice. Please enter 'Open door' or 'Do not enter.")
+                                            print("\nInvalid choice. Please enter 'Open door' or 'Do not enter'.")
                                     break
 
                                 else:
-                                    print('\nInvalid choice. Please eneter 1 or 2.')
+                                    print("\nInvalid choice. Please enter '1' or '2'.")
                             break
                         else:
-                             print('\nInvalid choice. Please eneter 1 or 2.')
+                             print("\nInvalid choice. Please enter '1' or '2'.")
                     break    
                 else:
-                     print('\nInvalid choice. Please enter 1 or 2.')
+                     print("\nInvalid choice. Please enter '1' or '2'.")
             break
 
         else:
-            print('Invalid choice. Please enter 1 or 2')
+            print("Invalid choice. Please enter '1' or '2'.")
     
     while True:
-        play_again=input('\nWould you like to play again?(Yes or No):')
+        play_again=input("\nWould you like to play again?(Enter 'Yes' or 'No'):")
         
         if play_again=='No':
             print('Thanks for playing! GAME OVER')
